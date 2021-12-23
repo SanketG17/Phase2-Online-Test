@@ -1,0 +1,94 @@
+{
+    "questions": [{
+            "questionText": "What does HTML stand for?",
+            "options": [
+                {
+                    "text": "Hyper Text Markup Language",
+                    "correct": true
+                },
+                {
+                    "text": "Hyper Link Language"
+                },
+                {
+                    "text": "Dynamic Language"
+                },
+                {
+                    "text": "None of above"
+                }
+            ],
+            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+        },
+        {
+            "questionText": "HTML is a subset of",
+            "options": [{
+                    "text": "SQL"
+                },
+                {
+                    "text": "SML"
+                },
+                {
+                    "text": "SSGS"
+                },
+                {
+                    "text": "SGML",
+                    "correct": true
+                }
+            ],
+            "explanation": "enum is not used as a type in TypeScript"
+        },
+        {
+            "questionText": "ALL HTML tags are enclosed in what?",
+            "options": [{
+                    "text": "< and <"
+                },
+                {
+                    "text": "< and >",
+                    "correct": true
+                },
+                {
+                    "text": "< and :"
+                },
+                {
+                    "text": "> and >"
+                }
+            ],
+            "explanation": "interfaces are typically used to list the properties and methods for an object"
+        },
+        {
+            "questionText": "<a> and </a> are the tags used for ",
+            "options": [{
+                    "text": "Audio-voiced text"
+                },
+                {
+                    "text": "Adding links to your page",
+                    "correct": true
+                },
+                {
+                    "text": "Aligning text"
+                },
+                {
+                    "text": "Adding file"
+                }
+            ],
+            "explanation": "number[] is another way of writing Array<number> in TypeScript"
+        },
+        {
+            "questionText": "The BODY tag is usually used after",
+            "options": [{
+                    "text": "HEAD tag",
+                    "correct": true
+                },
+                {
+                    "text": "TITLE tag"
+                },
+                {
+                    "text": "BODY tag"
+                },
+                {
+                    "text": "HTMl tag"
+                }
+            ],
+            "explanation": "a constructor is used by a class to take in parameters"
+        }
+    ]
+}

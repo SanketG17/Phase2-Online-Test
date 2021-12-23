@@ -1,0 +1,33 @@
+
+<div class="container">
+    <p>Total test consists of</p>
+    <ul>
+        <li>Python</li>
+        <li>Angular</li>
+        <li>Java</li>
+        <li>Html</li>
+    </ul>
+    <p class="col-md-8 fg-4">Total number of questions are 5. Each Question holds 10 Points</p>
+    <h4>Rules:</h4>
+    <ol>
+        <li>Correct Question gives you 10 points</li>
+        <li>Incorrect Question gives to -10 points</li>
+        <li>You will have 60sec to answer each question</li>
+        <li>Refreshing the page will reset the quiz</li>
+    </ol>
+    
+    <div class="container">
+        <h3>Login Form</h3>
+        <div class="name col-md-4 my-3">
+            <label>Username : </label>   
+            <input type="text" placeholder="Enter Username" name="username" required>  
+            <label>Password : </label>   
+            <input type="password" placeholder="Enter Password" name="password" required> 
+            <label >Enter Email:</label>
+            <input type="email"  placeholder="enter email here..." name="email" required>
+            
+        </div>
+    </div>
+    <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Start Quiz</button>
+    <h1 style="font-family: cursive;text-align: center;">All the best</h1>
+</div>
